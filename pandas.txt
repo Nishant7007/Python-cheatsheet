@@ -1,0 +1,6 @@
+#CHANGE PANDAS COLUMN TO DATETIME TYPE
+	pd.to_datetime(data['DATE']).dt.date
+
+
+#FINDING A DATE AFTER OR BEFORE THE GIVEN DATE
+	newDate = date-timedelta(14)
